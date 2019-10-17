@@ -62,3 +62,13 @@ nav {
     background-size: cover;
     /* background-color: black; */
 }
+
+footer {
+    display: block;
+    color: transparent;
+}
+
+p {
+    color: black !important;
+
+}

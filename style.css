@@ -2,7 +2,7 @@
     Box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
 
 ul {
@@ -30,6 +30,14 @@ nav {
     position: fixed;
 }
 
+.content {
+    color: black;
+    text-align: center;
+    width: 800px;
+    padding: 10px, 10px;
+    margin-top: 100px;
+}
+
 .box {
     height: 1000px;
     border-bottom: 1px solid grey;
@@ -44,7 +52,9 @@ nav {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    /* background-color: black; */
+    background-color: black;
+    opacity: 50%;
+    font-size: 1em;
 }
 
 #About {

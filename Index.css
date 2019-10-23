@@ -36,6 +36,9 @@ nav {
     width: 800px;
     padding: 10px, 10px;
     margin-top: 100px;
+    margin-left: 550px;
+    background-color: white;
+    opacity: 0.75;
 }
 
 .box {
@@ -62,7 +65,7 @@ nav {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    /* background-color: black; */
+    font-size: 1em;
 }
 
 #Contact {
@@ -70,15 +73,15 @@ nav {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    /* background-color: black; */
+    font-size: 1em;
 }
 
 footer {
-    display: block;
-    color: transparent;
+    background-color: black;
+    color: white;
+    font-size: 1em;
 }
 
 p {
     color: black !important;
-
 }

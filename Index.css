@@ -30,6 +30,10 @@ nav {
     position: fixed;
 }
 
+.clear {
+    clear: both;
+}
+
 .content {
     color: black;
     text-align: center;
@@ -46,7 +50,7 @@ nav {
     border-bottom: 1px solid grey;
     padding-top: 50px;
     color: black;
-    font-size: 50px;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -74,6 +78,28 @@ nav {
     background-repeat: no-repeat; 
     background-size: cover;
     font-size: 1em;
+    width: 100%;
+}
+
+.contentOne {
+    color: black;
+    text-align: center;
+    width: 25%;
+    margin-left: 50px;
+    float: left;
+    background-color: white;
+    opacity: 0.75;
+    overflow: hidden;
+}
+
+.contentTwo {
+    color: black;
+    text-align: center;
+    width: 25%;
+    float: right;
+    margin-right: 50px;
+    background-color: white;
+    opacity: 0.75;
 }
 
 footer {
@@ -85,3 +111,7 @@ footer {
 p {
     color: black !important;
 }
+
+a:hover {
+    background-color: midnightblue;
+  }

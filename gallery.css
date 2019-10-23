@@ -33,9 +33,11 @@ nav {
     z-index: +1;
 }
     
-.clear {
-    clear: both;
-}
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #52c234, #061700);
+  }
 
 footer {
     background-color: black;
@@ -50,6 +52,9 @@ p {
 a:hover {
     background-color: midnightblue;
   }
+.clear {
+    clear: both;
+}
 
 .grid-container {
     margin-top: 100px;
@@ -65,14 +70,9 @@ a:hover {
     background: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    position: relative;
 }
-
-body {
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to bottom right, #52c234, #061700);
-  }
 
 .middle {
     transition: .5s ease;
@@ -86,8 +86,6 @@ body {
 .image {
     opacity: 1;
     display: block;
-    /* width: 100%; */
-    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
   }
@@ -102,8 +100,8 @@ body {
 
 .text {
     background-color: white;
-    color: white;
+    color: black;
     font-size: 1em;
-    /* padding: 16px 32px; */
+    padding: 16px 32px;
   }
   

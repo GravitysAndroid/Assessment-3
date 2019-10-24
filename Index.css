@@ -81,11 +81,11 @@ a:hover {
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 33%%;
+    width: calc(100%  /3);
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 1em;
   }
   
 .active, .collapsible:hover {
@@ -93,10 +93,14 @@ a:hover {
   }
   
 .contentContact {
-    padding: 0 18px;
+    width: calc(100%  /3);
+    padding: 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    color: black;
+    float: center;
+    margin-left: calc(100%  /3);
 }
 
 .box {

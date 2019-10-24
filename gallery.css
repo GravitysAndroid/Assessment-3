@@ -103,9 +103,8 @@ a:hover {
   }
 
 .text {
-    background-color: white;
+    background-color: gray;
     color: black;
     font-size: 1em;
     padding: 16px 32px;
   }
-  

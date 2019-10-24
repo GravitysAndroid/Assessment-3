@@ -64,28 +64,39 @@ a:hover {
     opacity: 0.75;
 }
 
-.listLeft {
+.contentAbout {
     color: black;
-    text-align: left;
-    width: auto;
+    text-align: center;
+    width: 66%;
     padding: 10px, 10px;
-    float: left;
-    margin-left: 100px;
-    opacity: 1 !important;
-    font-size: 2em;
-    font-weight: bold;
+    float: center;
+    margin-top: 100px;
+    margin-left: 220px;
+    background-color: white;
+    opacity: 0.70;
 }
 
-.listRight {
-    color: black;
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 33%%;
+    border: none;
     text-align: left;
-    width: auto;
-    padding: 10px, 10px;
-    float: right;
-    margin-right: 100px;
-    opacity: 1 !important;
-    font-size: 2em;
-    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+  }
+  
+.active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+.contentContact {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
 
 .box {
@@ -96,27 +107,6 @@ a:hover {
     font-size: 1em;
     text-align: center;
     width: 100%;
-}
-
-.contentOne {
-    color: black;
-    text-align: center;
-    width: 25%;
-    margin-left: 50px;
-    float: left;
-    background-color: white;
-    opacity: 0.75;
-    overflow: hidden;
-}
-
-.contentTwo {
-    color: black;
-    text-align: center;
-    width: 25%;
-    float: right;
-    margin-right: 50px;
-    background-color: white;
-    opacity: 0.75;
 }
 
 #Home {

@@ -64,7 +64,7 @@ a:hover {
     opacity: 0.75;
 }
 
-.contentAbout {
+.contentTiger {
     color: black;
     text-align: center;
     width: 66%;
@@ -92,7 +92,7 @@ a:hover {
     background-color: #555;
   }
   
-.contentContact {
+.contentPig {
     width: calc(100%  /3);
     padding: 18px;
     display: none;

@@ -113,6 +113,20 @@ a:hover {
     width: 100%;
 }
 
+.FooterLogo {
+    height: 15px;
+    width: 15px;
+    background-color:black !important;
+}
+
+.FooterLink {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    position: relative;
+    background-color:black !important;
+}
+
 #Home {
     background-image: url("/Images/Bear.jpg");
     background-position: center; 

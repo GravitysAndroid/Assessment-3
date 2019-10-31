@@ -34,10 +34,16 @@ nav {
 }
     
 body {
-    display: flex;
     justify-content: center;
     background-image: linear-gradient(to bottom right, #52c234, #061700);
     height: 100%;
+} 
+
+main {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, #52c234, #061700);
+  height: 100%;
 }
 
 p {
@@ -114,7 +120,6 @@ footer {
   padding-top: 5px;
   width: 100%;
   bottom: 0px;
-  position: absolute;
 }
 
 .FooterLogo {

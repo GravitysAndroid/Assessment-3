@@ -125,6 +125,8 @@ a:hover {
     margin: 0 auto;
     position: relative;
     background-color:black !important;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 #Home {

@@ -133,4 +133,6 @@ footer {
   height: 15px;
   margin: 0 auto;
   background-color:black !important;
+  display: inline-block;
+  margin-bottom: 15px;
 }

@@ -1,9 +1,9 @@
-* {
+/* * {
     Box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: black;
-}
+} */
 
 ul {
     list-style: none;
@@ -35,7 +35,6 @@ nav {
     
 body {
     justify-content: center;
-    background-image: linear-gradient(to bottom right, #52c234, #061700);
     height: 100%;
 } 
 
@@ -62,10 +61,10 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 300px 300px 300px;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-template-rows: 28% 28% 28%;
+    grid-template-columns: 28% 28% 28%;
+    column-gap: 2%;
+    row-gap: 2%;
     padding: 0 auto;
     height: 100%;
   }

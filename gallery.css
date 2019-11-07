@@ -36,12 +36,13 @@ nav {
 body {
     justify-content: center;
     height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #52c234, #061700);
 } 
 
 main {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to bottom right, #52c234, #061700);
   height: 100%;
 }
 
@@ -67,6 +68,7 @@ a:hover {
     row-gap: 2%;
     padding: 0 auto;
     height: 100%;
+    justify-content: center;
   }
 
 .grid-item {

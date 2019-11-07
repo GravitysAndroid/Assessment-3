@@ -104,7 +104,7 @@ a:hover {
 }
 
 .box {
-    height: 1200px;
+    height: 100%;
     border-bottom: 1px solid grey;
     padding-top: 50px;
     color: black;
